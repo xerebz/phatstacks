@@ -1,7 +1,7 @@
 # phatstacks
 A few useful scripts for debugging Python performance on running processes. No code instrumentation required.
 ## Prerequisites
-Depends on  [pyrasite](www.pyrasite.com).
+Depends on  [pyrasite](http://www.pyrasite.com).
 <pre>pip install pyrasite</pre>
 ..which depends on gdb.
 <pre>sudo apt install gdb</pre>
