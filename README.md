@@ -1,12 +1,13 @@
 # phatstacks
 A few useful scripts for debugging Python performance on running processes. No code instrumentation required.
 ## Prerequisites
-Depends on  [pyrasite](pyrasite.com).
+Depends on  [pyrasite](www.pyrasite.com).
 <pre>pip install pyrasite</pre>
 ..which depends on gdb.
 <pre>sudo apt install gdb</pre>
 On Ubuntu, you'll also need to enable ptrace.
 <pre>echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope</pre>
+The user running the process needs read access to these scripts.
 
 ## Usage
 Write the stacktrace of a running program to $HOME/stacktrace-PID.log
